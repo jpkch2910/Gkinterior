@@ -1,49 +1,107 @@
-<div class="bg">
-<div style="background-color:rgb(197, 194, 194) ;">
-<ul>
-  <li>
-    <i class="fa fa-phone-square-alt"></i>phone:89043320
-  </li>
-</ul>
-</div>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">G K Interior</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Project
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact Us</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
+<div class="container">
+  <div class="jumbotron">
+    <h1 class="display-4 text-primary">G K Interiors</h1>
+    <p class="lead">Live the way you want</p>
+    <hr class="my-4">
+    <div class="row">
+   
+      <div class="col">
+        <h5 class="text-info">
+         SERVICES
+        </h5>
+        <p>
+         Specialized carpentry joinery
+        </p>
+        <p>
+         Full shop-fittintg services
+        </p>
+        <p>
+          Furniture for commercial and residential projects including soft furnishing
+          </p>
+        <p>
+         Gypsum ceiling and partitions, wooden ceiling and flooring
+         </p>
+         <p>
+          Light fixtures and curatin drapes
+         </p>
+        <p>
+          Turn Key interior decoration
+         </p>
+         <p>
+          Wooden flush and panel doors
+         <p>
+         Wall papers and wood wall paneling
+         </p>
+         <p>
+          Glass partions and doors
+         </p>
+      </div>
+      
+      <div class="col">
+     
+        <h5 class="text-info">
+          Contact Us
+        </h5>
+        <p>
+          +91 9964964667/8147011984
+        </p>
+        <p>
+         Gkinteriors@gmail.com
+        </p>
+        <h5 class="text-info">Office Address</h5>
+        <p>
+          #111/1,1st main road of GKW layout,near Peenya 2nd stage,bangalore-560071
+        </p>
+        <h5 class="text-info">
+          Our Values
+        </h5>
+        <p>
+          Professionalism
+        </p>
+        <p>
+         Performance
+        </p>
+        <p>
+          High Quality
+        </p>
+        <p>
+          Customer Satisfaction
+        </p>
+      </div>
+    </div>
   </div>
-</nav>
-<div>
-  <h3 style="color: white ;">
-    Weare
-  </h3>
-</div>
+
+  <div class="img-fluid" style="background-image:url('../assets/photo1.jpg');height: 100vh ;">
+  <div>
+    <h3 style="padding:50px;color:white"> G K Interiors</h3>
+    <h1 style="margin-top:100px;color:white;text-align: center ;">
+      100+ projects
+    </h1>
+  </div>
+  </div>
+  <div class="slidshow">
+    <h1 style="text-align:center">Recent  Projects</h1>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="../assets/New-Project-1.png" alt="First slide">
+        </div>
+        
+        <div class="carousel-item" *ngFor="let imag of images">
+          <img class="d-block w-100" src='../assets/{{imag}}.jpg' alt="Second slide">
+        </div>
+       
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  
 </div>
